@@ -1,6 +1,6 @@
 Плагин устанавливается так же как указано в задании:
 
-1)`npm install -S https://github.com/Hakkoid/eslint-plugin-lodash-to-native`<br>
+1)`npm install -S https://github.com/Hakkoid/eslint-plugin-lodash-to-native.git`<br>
 2) добавить в .eslintrc.js
 ```js
     "plugins": [
@@ -30,7 +30,7 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-lodash-to-native`:
 
 ```
-$ npm install https://github.com/Hakkoid/eslint-plugin-lodash-to-native --save-dev
+$ npm install https://github.com/Hakkoid/eslint-plugin-lodash-to-native.git --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-lodash-to-native` globally.
