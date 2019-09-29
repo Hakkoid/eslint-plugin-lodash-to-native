@@ -1,3 +1,20 @@
+Плагин устанавливается так же как указано в задании:
+    1)`npm install -S https://github.com/Hakkoid/eslint-plugin-lodash-to-native`
+    2) добавить в .eslintrc.js
+    ```js
+        "plugins": [
+            "lodash-to-native"
+        ],
+        "rules": {
+            "lodash-to-native/map": "warn"
+        },
+    ```
+
+Фикс делается в одну строку из-за того, что я не успел придумал как ставить нужно количество табов,
+хотелось бы узнать как это лучше сделать. 
+Если будут проблемы с установкой, то можно написть мне в телеграм - hakkoid.
+
+
 # eslint-plugin-lodash-to-native
 
 validate lodash map
@@ -44,8 +61,6 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * Fill in provided rules here
-
-
 
 
 
